@@ -1,0 +1,81 @@
+/* Apply box-sizing to all elements and set font */
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;  /* Removed duplicate in body font-family: Arial, Helvetica, sans-serif; */
+}
+
+/* Style the body */
+body {
+  margin: 0;   /* Remove default margin */
+}
+
+/* Style the table */
+.table-content {
+  background-color: #ffffff;      /* Light gray background */
+  line-height: 1;
+  padding-left: 16px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+/* Style the other stuff */
+.lower-content {
+  background-color: #ffffff;      /* Light gray background */
+  line-height: 1.8;
+  padding-left: 16px;
+  padding-top: 0px;
+  padding-bottom: 16px;
+}
+
+/* Style the content */
+.content {
+  color: #f2f2f2;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;               /* Ensure content stays within boundaries */
+  background-color: #333;         /* Dark background */
+  left: 0;
+  top: 0;
+  width: 100%;
+  position: fixed;
+}
+
+/* Style the links in the topnav */
+.topnav a {
+  float: left;                    /* Align links horizontally */
+  display: block;                 /* Block-level display for clickable area */
+  color: #f2f2f2;                 /* Light text */
+  text-align: center;             /* Center text inside each link */
+  padding: 14px 16px;             /* Internal padding */
+  text-decoration: none;          /* Remove underline */
+}
+
+/* Change link color on hover */
+.topnav a:hover {
+  background-color: rgb(18, 33, 168);         /* Light background on hover */
+  /* Change text color color: black; */
+}
+
+/* Style the content area */
+.content {
+  background-color: rgb(18, 33, 168);         /* Light background */
+  padding-top: 48px;
+  padding-bottom: 10px;                  /* Add padding around content */
+  padding-left: 16px;
+}
+
+/* Style the footer */
+.footer {
+  overflow: hidden;
+  background-color: #ebebeb;      /* Light gray background */
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 16px;
+  line-height: 1.8;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+}

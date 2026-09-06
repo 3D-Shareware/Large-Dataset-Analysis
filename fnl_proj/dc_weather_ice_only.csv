@@ -1,0 +1,4 @@
+icon,datetime,temp,windspeed,preciptype,description
+snow,2022-02-24,2.4,28.2,"rain, ice",Cloudy skies throughout the day with rain or snow.
+snow,2022-03-12,2,42.2,"rain, snow, ice",Partly cloudy throughout the day with rain or snow in the morning and afternoon.
+snow,2024-01-16,-2.1,38.7,"rain, freezing rain, snow, ice",Partly cloudy throughout the day with a chance of rain or snow throughout the day.

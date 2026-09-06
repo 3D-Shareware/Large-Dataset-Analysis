@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Dashboard</title>
+  <meta charset="utf-8">
+  <script Language="JavaScript"> 
+  	<!--
+	function popup(url, name, width, height)
+	{
+		settings=
+		"toolbar=no,location=no,directories=no,"+
+		"status=no,menubar=no,scrollbars=yes,"+
+		"resizable=yes,width="+width+",height="+height;
+		MyNewWindow=window.open(""+url,name,settings);
+	}
+	//-->
+	</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Link to the external CSS file -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="./images/favicon.png">
+</head>
+<body>
+
+  <div class="topnav">
+    <a href="./index.html">Home</a>
+    <a href="./about_me.html">About Me</a>
+    <a href="./research.html">Research</a>
+    <a href="./dataset.html">Dataset</a>
+    <a href="./dashboard.html">Dashboard</a>
+  </div>
+
+<div class="content">
+  <h2>Kevin Beyer</h2>
+  <p>Dashboard
+</div>
+
+<div class="lower-content">
+  <p>Stats and graphs for data on weather in Washington D.C.
+    <br>Click on each link to see the data!
+    <h3>Stats</h3>
+    🔥 <a href="#" onClick="popup('./graph_hottest_days.html', 'Hottest Days', 1300, 800);">Hottest days</a> 🔥
+    <br>❄️ <a href="#" onClick="popup('./graph_coldest_days.html', 'Coldest Days', 1300, 800);">Coldest days</a> ❄️
+    <br>🌪️ <a href="#" onClick="popup('./graph_windiest_days.html', 'Windiest Days', 1300, 800);">Windiest days</a> 🌪️
+    <br>🧊 <a href="#" onClick="popup('./graph_freezing_rain.html', 'Freezing Rain', 1300, 800);">Freezing rain days</a> 🧊
+    <h3>Graphs</h3>
+    🌡️ <a href="#" onClick="popup('./graphs/temperature.png', 'Temperature Graph', 1757, 876);">Temperature over the years</a> 🌡️
+    <br>💨 <a href="#" onClick="popup('./graphs/wind.png', 'Wind Graph', 1757, 876);">Wind over the years</a> 💨
+    <br>💧 <a href="#" onClick="popup('./graphs/ice.png', 'Ice Graph', 1757, 876);">Ice precipitation vs. wind speed</a> 💧
+    <br>
+    <br>You can also <a href="./dataset.html">view the full dataset</a> or <a href="./dc_weather.csv">download the CSV file</a>.
+    <br>
+
+</div>
+
+<div class="footer">
+  <p style="font-size: smaller;">Copyright 2005-2025 by nobody. Zero rights reserved. Kevin is powered purely by some sick tunes. <a href="https://www.youtube.com/watch?v=iKnwVvXkWq0">Learn why</a>.</p>
+</div>
+
+
+</body>
+</html>

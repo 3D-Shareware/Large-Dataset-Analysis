@@ -1,0 +1,39 @@
+/* Apply box-sizing to all elements and set font */
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;  /* Removed duplicate in body font-family: Arial, Helvetica, sans-serif; */
+}
+
+/* Style the body */
+body {
+  margin: 0;   /* Remove default margin */
+}
+
+/* Style the table */
+.table-content {
+  background-color: #ffffff;      /* Light gray background */
+  color: #000000;
+  line-height: 1;
+  padding-left: 16px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+/* Style the other stuff */
+.lower-content {
+  background-color: #ffffff;      /* Light gray background */
+  color: #000000;
+  line-height: 1.8;
+  padding-left: 16px;
+  padding-top: 0px;
+  padding-bottom: 16px;
+}
+
+/* Style the content */
+.content {
+  color: #f2f2f2;
+  background-color: rgb(18, 33, 168);         /* Light background */
+  padding-top: 32px;
+  padding-left: 16px;
+  padding-bottom: 10px;
+}
